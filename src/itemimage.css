@@ -1,0 +1,34 @@
+.ItemImage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.ItemImage img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 300ms;
+    /*background-color: #0f142d;*/
+    background: url(./pink_blank-3.png);
+}
+.ItemImage-fade-enter{
+    opacity: 0;
+}
+.ItemImage-fade-exit{
+    opacity: 1;
+}
+.ItemImage-fade-enter-active{
+    opacity: 1;
+}
+.ItemImage-fade-exit-active{
+    opacity: 0;
+}
+.ItemImage-fade-enter-active,
+.ItemImage-fade-exit-active{
+    transition: opacity 300ms;
+}

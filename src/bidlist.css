@@ -1,0 +1,30 @@
+ul.BidList {
+    list-style: none;
+    padding: 0;
+    font-size: 30px;
+}
+
+ul.BidList li {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 570px;
+}
+
+.top-bid {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.top-bid .bid {
+    font-size: 110px;
+}
+
+.top-bid .bidder {
+    display: block;
+}
+
+.bid-title {
+    color: #de178b;
+    text-transform: uppercase;
+}
