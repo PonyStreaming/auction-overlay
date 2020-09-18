@@ -107,7 +107,7 @@ export function AuctionOverlay(props: AuctionOverlayProps): ReactElement {
 
     return (
         <div className={"AuctionApp " + (props.bigWebcam ? 'big-webcam' : '')}>
-            <p className="charity-desc">Raising money for the United Way COVID-19 Fund</p>
+            <p className="charity-desc">Benefiting the National Alliance on Mental Illness</p>
             <p className="total-raised-label">Total Raised:<br/><span className="total-raised">${(totalRaised/100).toFixed(2)}</span></p>
             <div className="item-image-holder">
                 <ItemImage item={currentItem} />
